@@ -1,7 +1,10 @@
+<a name="readme-top"></a>
 # RIADを衣服汚れ検知用に修正したものです
 
-# ファイルとフォルダの説明
+[![Python][Python.js]][Python.link]
+[![PyTorch][PyTorch.js]][PyTorch.link]
 
+# ファイルとフォルダの説明
 
 ## losses/
 RIADにて使用されるGMSとSSIMのLossのプログラムです。
@@ -69,3 +72,10 @@ RIADにて使用されるGMSとSSIMのLossのプログラムです。
     * linuxであれば*bash run.sh*でも実行できます
 3. 学習は *python test.py --save_dir (結果フォルダ名：result/other/wrench256_seed999_20210720_022746等)* で開始します
     * linuxであれば*python makeTestSh.py*を実行して、*bash test.sh* でも実行できます
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Python.js]: https://img.shields.io/badge/Python-3572A5?style=for-the-badge&logo=Python&logoColor=white
+[Python.link]: https://www.python.org/
+[PyTorch.js]: https://img.shields.io/badge/PyTorch-e34c26?style=for-the-badge&logo=PyTorch&logoColor=white
+[PyTorch.link]: https://www.pytorch.org/
